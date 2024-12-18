@@ -1,0 +1,151 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(160, 140, 114);
+
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+.form__group-title{
+
+    width: 200px;
+}
+
+.form__group-content{
+
+    width: 620px;
+}
+
+
+.form__label--item {
+    color: rgb(160, 140, 114);
+}
+
+.form__label--required {
+    padding: 4px 2px;
+    color: #f17878;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+    font-size: 13px;
+}
+
+
+.form__input--text--name {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--text--tel {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form__input--text--gender {
+    width: 600px;
+    display: flex;
+}
+
+
+
+.form__input--text--gender label {
+    color: rgb(160, 140, 114);
+    margin-right: 50px;
+}
+
+.form__input--text--gender input[type="radio"] {
+    margin-right: 8px
+}
+
+.form__input--text--name input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #f5f2f2;
+    background-color: #f5f2f2;
+    border-radius: 3px;
+    appearance: none;
+    color: rgb(160, 140, 114);
+}
+
+.form__input--text--tel input {
+    padding: 10px;
+    width: 170px;
+    border: 1px solid #f5f2f2;
+    background-color: #f5f2f2;
+    border-radius: 3px;
+    appearance: none;
+    color: rgb(160, 140, 114);
+}
+
+.hyphen {
+    margin: auto;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #f5f2f2;
+    background-color: #f5f2f2;
+    border-radius: 3px;
+    appearance: none;
+    color: rgb(160, 140, 114);
+}
+
+.form-control {
+    width: 620px;
+    padding: 10px;
+    border: 1px solid #f5f2f2;
+    background-color: #f5f2f2;
+    border-radius: 3px;
+    appearance: none;
+    color: rgb(160, 140, 114);
+    cursor: pointer;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(160, 140, 114);
+    color: #fff;
+    cursor: pointer;
+}

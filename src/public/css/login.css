@@ -1,0 +1,73 @@
+main {
+    margin: 0 auto;
+    background-color: #f1dfd359;
+
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(160, 140, 114);
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.login {
+    background-color: white;
+    width: 736px;
+    margin: 0 auto;
+    height: 644px;
+    border: 1px solid #C5B9B0;
+    border-radius: 10px;
+}
+
+.login__block {
+    margin: 30px auto;
+    width: 500px;
+
+}
+
+.login__block--content {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.login__block--content--title {
+    text-align: left;
+    color: rgb(160, 140, 114);
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.login__block--content--input input {
+    width: 100%;
+    background-color: #f1dfd359;
+    height: 35px;
+    border: 1px solid #f1dfd359;
+    appearance: none;
+    color: rgb(213, 208, 208);
+}
+
+.login__button {
+    margin-top: 50px;
+}
+
+.login__button--submit {
+    width: 15%;
+    height: 35px;
+    background-color: rgb(160, 140, 114);
+    border: 1px solid rgb(160, 140, 114);
+    color: white;
+
+}
