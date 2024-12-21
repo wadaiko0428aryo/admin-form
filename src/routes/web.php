@@ -15,9 +15,9 @@ use App\Http\Controllers\AdminController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/laravel', function () {
+    return view('welcome');
+});
 
 Route::get('/', [ContactController::class , 'index']);
 Route::post('/contact/confirm', [ContactController::class , 'confirm']);
@@ -27,3 +27,6 @@ Route::get('/admin', [AdminController::class, 'index'])->name('admin.index');
 
 Route::get('/register' , [ContactController::class , 'register']);
 Route::get('/login' , [ContactController::class , 'login']);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

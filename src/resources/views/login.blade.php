@@ -1,3 +1,7 @@
+
+
+
+
 @extends('layouts/app')
 
 @section('css')
@@ -17,7 +21,7 @@
         <h2>Login</h2>
     </div>
 
-    <form class="form" action="" method="">
+    <form class="form" action="{{ route('login')}}" method="post">
     @csrf
     <div class="login">
         <div class="login__block">
@@ -62,3 +66,4 @@
 </div>
 </main>
 @endsection
+

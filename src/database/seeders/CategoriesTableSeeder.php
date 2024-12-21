@@ -25,6 +25,5 @@ class CategoriesTableSeeder extends Seeder
 
         DB::table('categories')->insert($categories);
 
-        Contact::factory()->count(35)->create();
     }
 }

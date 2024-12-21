@@ -17,7 +17,7 @@
         <h2>Register</h2>
     </div>
 
-    <form class="form" action="" method="">
+    <form class="form" action="{{route('register')}}" method="post">
     @csrf
     <div class="login">
         <div class="login__block">

@@ -19,6 +19,5 @@ class DatabaseSeeder extends Seeder
             CategoriesTableSeeder::class,
         ]);
 
-        Contact::factory(35)->create();
     }
 }

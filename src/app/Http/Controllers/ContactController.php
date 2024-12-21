@@ -34,7 +34,7 @@ class ContactController extends Controller
         ]);
 
         // カテゴリ名を取得
-        $categoryName = Category::find($contact['categories'])->name;
+        $categoryName = Category::find($contact['categories'])->categories;
 
         // カテゴリ名を$contact配列に追加
         $contact['categories_name'] = $categoryName;
